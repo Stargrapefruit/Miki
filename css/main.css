@@ -1,0 +1,38 @@
+.color {
+	color: #dadadb;
+	/*text-decoration: underline;*/
+}
+
+.header {
+	color: #dadadb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback {
+border-radius: 0 10px 10px 0; /*  Скругляем уголки */
+width: 300px; /* Ширина */
+background: #333; /* Цвет фона */
+color: #fff; /* Цвет текста */
+position: fixed; /* Фиксируем на одном месте  */
+min-height: 100px; /* Минимальная высота */
+top: 100px; left: -320px; /* Положение */
+border-right: 25px solid #fc0; /* Оранжевая граница справа */
+padding: 10px; /* Поля вокруг */
+transition: left 0.5s ease-out; /* Анимация */
+}
+.feedback img {
+float: left;
+margin: 0 10px 0 0;
+}
+.feedback::after {
+content: 'Обратная связь'; /* Выводим текст */
+color: #000; /* Цвет надписи */
+position: absolute; /* Абсолютное позиционирование */
+right: -69px; bottom: 50px; /* Положение текста */
+transform: rotate(-90deg); /* Поворачиваем текст */
+}
+.feedback:hover {
+left: 0; /* При наведении сдвигаем вправо */
+}

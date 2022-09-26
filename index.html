@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Обратная связь</title>
-  <style>
-   .feedback {
-    border-radius: 0 10px 10px 0; /*  Скругляем уголки */
-    width: 300px; /* Ширина */
-    background: #333; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    position: fixed; /* Фиксируем на одном месте  */
-    min-height: 100px; /* Минимальная высота */
-    top: 100px; left: -320px; /* Положение */
-    border-right: 25px solid #fc0; /* Оранжевая граница справа */
-    padding: 10px; /* Поля вокруг */
-    transition: left 0.5s ease-out; /* Анимация */
-   }
-   .feedback img {
-    float: left;
-    margin: 0 10px 0 0;
-   }
-   .feedback::after {
-    content: 'Обратная связь'; /* Выводим текст */
-    color: #000; /* Цвет надписи */
-    position: absolute; /* Абсолютное позиционирование */
-    right: -69px; bottom: 50px; /* Положение текста */
-    transform: rotate(-90deg); /* Поворачиваем текст */
-   }
-   .feedback:hover {
-    left: 0; /* При наведении сдвигаем вправо */
-   }
-  </style>
- </head>
- <body bgcolor="#1d1e20">
-  <div class="feedback">
-   <img src="images/feedback.jpg" alt="" width="100" height="100">
-   Если у вас возникли вопросы пишите в TG: <a href="https://t.me/stargrapefruit">*тык*</a>
-  </div>
-  <p>команды</p>
- </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghost Casino Bot</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body bgcolor="#1d1e20">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJMG8Z2Z4Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QJMG8Z2Z4Q');
+    </script>
+    <div class="feedback">
+        <img src="images/1.png" alt="" width="110" height="100">
+        Если у вас возникли вопросы пишите: <a href="https://t.me/stargrapefruit">*тык*</a>
+    </div>
+    <div header="header">
+        <h1 class="header">Команды</h1>
+        <p class="header">Ghost Casino Bot</p>
+    </div>
+</body>
 </html>
+
