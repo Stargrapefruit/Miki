@@ -236,6 +236,18 @@ img {
 
 /* Project */
 
+
+
+.cont {
+  text-align: center;
+}
+.cont {
+  text-align: left;
+  display: inline-block;
+}
+
+
+
 .project {
     padding: 80px 0 120px 0;
     text-align: center;
