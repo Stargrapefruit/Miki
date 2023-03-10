@@ -3,7 +3,11 @@
 }
 
 
-
+@font-face {
+    font-family: 'Font4Name'; 
+    src: local('Font4Name'),
+        url(./../font/SFPRODISPLAYMEDIUM.OTF); 
+}
 
 html {
     scroll-behavior: smooth;
@@ -11,7 +15,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Font4Name';
     color: #000000;
 }
 
