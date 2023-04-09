@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: 'Font4Name';
+    color: #000000;
+
+}
+
+main {
+    background: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 
 @font-face {
     font-family: 'Font4Name'; 
@@ -9,15 +26,8 @@
         url(./../font/SFPRODISPLAYMEDIUM.OTF); 
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
-body {
-    margin: 0;
-    font-family: 'Font4Name';
-    color: #000000;
-}
+
 
 img {
     max-width: 100%;
@@ -49,7 +59,6 @@ img {
     height: 100vh;
 
     background-color: #556983;
-    background-image: url("./../img/header/header-bg.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -114,6 +123,7 @@ img {
     background-color: white;
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
     transition: transform 0.2s ease-in;
+    border-radius: 10px;
 }
 
 .card:hover {
@@ -138,6 +148,7 @@ img {
 
 .card-img {
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .card-title {
@@ -304,3 +315,15 @@ img {
     background-color: #275BEC;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
