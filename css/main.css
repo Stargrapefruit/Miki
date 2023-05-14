@@ -2,10 +2,19 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Font4Name'; 
+    src: local('Font4Name'),
+        url(./../font/SFPRODISPLAYMEDIUM.OTF); 
+}
+
+
+
 body {
     margin: 0;
     font-family: 'Font4Name';
-    color: #000000;
+    color: #000000; 
 
 }
 
@@ -15,15 +24,6 @@ main {
 
 html {
     scroll-behavior: smooth;
-}
-
-
-
-
-@font-face {
-    font-family: 'Font4Name'; 
-    src: local('Font4Name'),
-        url(./../font/SFPRODISPLAYMEDIUM.OTF); 
 }
 
 
