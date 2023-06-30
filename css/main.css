@@ -252,11 +252,8 @@ img {
 /* Project */
 
 
-
 .cont {
   text-align: center;
-}
-.cont {
   text-align: left;
   display: inline-block;
 }
