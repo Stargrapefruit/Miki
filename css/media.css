@@ -28,6 +28,12 @@
 
 /* Медиа запрос: для экранов с шириной ДО 760px */
 @media (max-width: 760px) {
+
+    .cont {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     .header-title {
         font-size: 32px;
     }
